@@ -4,7 +4,8 @@ import (IProduct) from './product'
 
 @Component({
 	selector: 'pm-products',
-	templateURL: 'app/products/product-list.component.html'
+	templateURL: 'app/products/product-list.component.html',
+	styleUrls: ['app/products/product-list.component.css']
 	
 })
 export class ProductListComponent{
