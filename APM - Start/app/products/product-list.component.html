@@ -45,7 +45,11 @@
 					<td>{{product.Artist}}</td>
 					<td>{{product.Genre}}</td>
 					<td>{{product.Year}}</td>
-					<td>{{product.starRating}}</td>
+					<td>
+						<aa-star [rating]='product.starRating'
+						(ratingClicked)='onRatingClicked($event)'>
+						</aa-star>
+					</td>
 			</tbody>
 		</table>
 	</div>
